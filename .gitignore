@@ -1,0 +1,29 @@
+# ---- 编译产物 ----
+zipedit.exe
+*.exe
+*.o
+*.obj
+*.dll
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# ---- 本地工具链（约 630 MB，不入库）----
+tools/
+
+# ---- IDE / 生成目录 ----
+.vscode/
+.idea/
+cmake-build-*/
+out/
+build/
+
+# ---- 运行时数据与临时文件 ----
+_testdata/
+_testbuild/
+*.log
+*.tmp
+Thumbs.db
+desktop.ini

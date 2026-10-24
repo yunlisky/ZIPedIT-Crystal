@@ -1,0 +1,24 @@
+* text=auto eol=lf
+
+# 源码
+*.c     text eol=lf
+*.h     text eol=lf
+*.md    text eol=lf
+Makefile text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf
+
+# Windows 批处理必须 CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# 二进制
+*.exe   binary
+*.dll   binary
+*.a     binary
+*.pdb   binary
+*.7z    binary
+*.zip   binary
+*.png   binary
+*.ico   binary
